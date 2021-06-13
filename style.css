@@ -180,7 +180,7 @@ img{
 @media screen and (max-width: 768px){
     .nav__menu{
         position: fixed;
-        top: var(--header-height);
+        top: -100%;
         left: 0;
         width: 100%;
         padding: 1.5rem 0 1rem;
@@ -192,4 +192,13 @@ img{
         z-index: var(--z-fixed);
     }
 }
+
+
+
+
+/* ===== SHOW MENU ===== */
+.show-menu{
+    top: var(--header-height);
+}
+
 
