@@ -201,4 +201,8 @@ img{
     top: var(--header-height);
 }
 
+.active-link{
+    color: var(--first-color);
+}
+
 
