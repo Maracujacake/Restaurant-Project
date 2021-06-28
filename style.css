@@ -395,3 +395,13 @@ font-size: var(--small-font-size);
     width: 230px;
     justify-self: center;
 }
+
+/* ===== contacto */
+
+.contact__container{
+    text-align: center;
+}
+
+.contact__description{
+    margin-bottom: var(--mb-3);
+}
