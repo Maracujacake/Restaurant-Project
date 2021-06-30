@@ -242,7 +242,7 @@ img{
 
 /* ======== home */
 
-.home-container{
+.home__container{
     height: calc(100vh - var(--header-height));
     align-content: center;
 }
@@ -260,7 +260,7 @@ img{
 }
 
 
-.home-img{
+.home__img{
     width: 300px;
     justify-self: center;
 
@@ -453,4 +453,22 @@ font-size: var(--small-font-size);
     font-size: var(--small-font-size);
     color: var(--text-color-light);
     margin-top: 3.5rem;
+}
+
+
+/* ===== media queries responsivo*/
+
+@media screen and (min-width: 576px){
+    .home__container,
+    .about__container,
+    .app__container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .about__data, .about__initial,
+    .app__data, .app__initial,
+    .contact__container{
+        text-align: initial;
+    }
 }
