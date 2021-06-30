@@ -505,4 +505,57 @@ font-size: var(--small-font-size);
     .nav__list{
         display: flex;
     }
+
+    .nav__item{
+        margin-left: var(--mb-5);
+        margin-bottom: 0;
+    }
+
+    .nav__toggle{
+        display: none;
+    }
+
+    .home__container{
+        height: 100vh;
+        justify-items: center;
+    }
+
+    .services__container,
+    .menu__container{
+        margin-top: var(--mb-6);
+    }
+
+    .menu__container{
+        grid-template-columns: repeat(3, 210px);
+        column-gap: 4rem;
+    }
+
+    .menu__content{
+        padding: 1.5rem;
+    }
+
+    .menu__img{
+        width: 130px;
+    }
+
+    .app__store{
+        margin: 0 var(--mb-1) 0 0;
+    }
+}
+
+
+@media screen and (min-width: 960px){
+    .bd-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home__img{
+        width: 500px;
+    }
+
+    .about__container,
+    .app__container{
+        column-gap: 7rem;
+    }
 }
