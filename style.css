@@ -541,6 +541,11 @@ font-size: var(--small-font-size);
         display: none;
     }
 
+    .change-theme{
+        position: initial;
+        margin-left: var(--mb-2);
+    }
+
     .home__container{
         height: 100vh;
         justify-items: center;
